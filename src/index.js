@@ -4,7 +4,7 @@ import handlebars from 'express-handlebars';
 
 const app = express();
 
-//Setup
+//Setup handlebars
 app.engine('hbs', handlebars.engine({
    extname: 'hbs', 
 }));
@@ -12,6 +12,9 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
+//Setup middlewares
+
+app.use(express.static('src/public'));
 
 //Routes
 app.get('/', (req, res) => {

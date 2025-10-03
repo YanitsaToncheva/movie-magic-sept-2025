@@ -8,5 +8,7 @@ SoftUni Back End Course Project
 - [x] Initialize NodeJS Project
 - [x] Add Express server `npm i express`
 - [x] Add workshop resources
-- [] Setup Handlebars `npm i express-handlebars`
+- [x] Setup Handlebars `npm i express-handlebars`
+- [x] Setup static files
 - [] Render Home page
+- [] Config debugging
