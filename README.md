@@ -6,7 +6,7 @@ SoftUni Back End Course Project
 ##Development Steps
 
 - [x] Initialize NodeJS Project
-- [] Add Express server
-- [] Add workshop resources
+- [x] Add Express server
+- [x] Add workshop resources
 - [] Setup Handlebars
 - [] Render Home page
