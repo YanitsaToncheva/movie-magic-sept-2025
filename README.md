@@ -24,8 +24,8 @@ SoftUni Back End Course Project
 - [x] Render movies on home page
 - [x] Show no movies screen
 ### Create Movie
-- [] Add movie Controller
-- [] Show create movie page
+- [x] Add movie Controller
+- [x] Show create movie page
 - [] Add routes
 - [] Read body data
 - [] Create movie
