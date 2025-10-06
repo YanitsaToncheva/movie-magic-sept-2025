@@ -17,10 +17,20 @@ SoftUni Back End Course Project
 - [x] Add Layout
 - [x] Render about page
 
-### Architecture
+### Architecture and dynamic rendering
 - [x] Add home controller
-- [] Add routes
 - [x] Add movie data layer
 - [x] Add movie service
 - [x] Render movies on home page
-- [] Show no movies screen
+- [x] Show no movies screen
+### Create Movie
+- [] Add movie Controller
+- [] Show create movie page
+- [] Add routes
+- [] Read body data
+- [] Create movie
+    - [] Add action
+    - [] Add service
+    - [] Add model method for creating movie
+    
+- [] Add 404 page
