@@ -26,7 +26,7 @@ SoftUni Back End Course Project
 ### Create Movie
 - [x] Add movie Controller
 - [x] Show create movie page
-- [] Add routes
+- [x] Add routes
 - [] Read body data
 - [] Create movie
     - [] Add action
