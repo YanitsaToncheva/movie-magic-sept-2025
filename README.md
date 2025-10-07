@@ -27,11 +27,17 @@ SoftUni Back End Course Project
 - [x] Add movie Controller
 - [x] Show create movie page
 - [x] Add routes
+- [x] Add 404 page
 - [x] Read body data
 - [] Create movie
     - [x] Add action
     - [x] Add service
     - [x] Add model method for creating movie
 - [x] Redirect after creation
-- [] Add unique id for each created movie   
-- [] Add 404 page
+- [x] Add unique id for each created movie   
+
+### Details page
+### Serach
+### Bonuses
+- [] File persistance
+
