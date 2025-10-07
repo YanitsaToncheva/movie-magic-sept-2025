@@ -33,5 +33,5 @@ SoftUni Back End Course Project
     - [x] Add service
     - [x] Add model method for creating movie
 - [x] Redirect after creation
-    
+- [] Add unique id for each created movie   
 - [] Add 404 page
