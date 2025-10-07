@@ -1,9 +1,11 @@
 import Movie from "../models/Movie.js";
 
-function getAll() {
-    return Movie.find();
-}
-
 export default {
-    getAll,
+    getAll() {
+        return Movie.find();
+    },
+    create(movieData) {
+        console.log(movieData)
+    }
+
 }
