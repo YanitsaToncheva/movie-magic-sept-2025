@@ -41,10 +41,15 @@ SoftUni Back End Course Project
 - [x] Add route with param for detail page
 - [x] GetOne movie from service
 - [x] Find movie by id from model
-- [] Render details page with dynamic data
+- [x] Render details page with dynamic data
 
 
-### Serach
+### Search
+- [x] Show static search page
+- [] Render all movies
+- [] Modify search form
+- [] Filter movies
+- [] Remember search words
 ### Bonuses
 - [] File persistance
-
+- [] Rating
