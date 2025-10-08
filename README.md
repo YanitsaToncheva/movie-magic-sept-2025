@@ -37,6 +37,13 @@ SoftUni Back End Course Project
 - [x] Add unique id for each created movie   
 
 ### Details page
+- [x] Add navigation button for detail page
+- [] Add route with param for detail page
+- [] Get one movie from service
+- [] Find movie by id from model
+- [] Render details page with dynamic data
+
+
 ### Serach
 ### Bonuses
 - [] File persistance
