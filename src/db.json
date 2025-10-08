@@ -1,0 +1,48 @@
+{
+  "movies": [
+    {
+      "_id": "a3682672-0ee4-1284-8759-35ee253329zv",
+      "title": "Jungle Cuise",
+      "genre": "Adventure",
+      "description": "Dreaming about saving countless lives and having another adventure, the feisty English feminist and doctor of botany, Dr Lily Houghton, embarks on a peril-laden mission to change the world. Along with her fashionable brother, MacGregor, Dr Houghton enlists the help of the arrogant, wisecracking riverboat skipper, Captain Frank Wolff, to guide them through the serpentine Amazon River in La Quila, his swift wooden boat. Now, as the intrepid trio ventures deeper and deeper into the heart of an impenetrable green maze, searching for something that cannot be found, a centuries-old curse and the ruthless aristocrat, Prince Joachim, threaten to put an end to their ambitious plans.",
+      "imageUrl": "/img/jungle-cruise.jpeg",
+      "director": "Jaume Collet-Serra",
+      "year": "2021",
+      "rating": 6.6,
+      "category": "movie"
+    },
+    {
+      "_id": "z2682672-0ee4-1534-8759-35ee253329ty",
+      "title": "Man of Steel",
+      "genre": "Superhero",
+      "description": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth.",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_FMjpg_UX1000_.jpg",
+      "director": "Zack Snyder",
+      "year": "2013",
+      "rating": 7.1,
+      "category": "movie"
+    },
+    {
+      "_id": "81313c94-08e0-40bf-85bc-1e7cdeebbef9",
+      "title": "Avengers: Endgame",
+      "category": "movie",
+      "genre": "Superhero",
+      "director": "Anthony Russo",
+      "year": "2019",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+      "rating": 8.4,
+      "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos actions and restore balance to the universe."
+    },
+    {
+      "title": "bluy",
+      "category": "animation",
+      "genre": "animation",
+      "director": "vdfvdf",
+      "year": "20148",
+      "imageUrl": "data:image/webp;base64,UklGRiwJAABXRUJQVlA4ICAJAADwMACdASrGAHMAPx1Mx2OtIq0tFpGgI4lmAM2+VV0euOdXmfeNyXX2T4nqI3DaVkueu1eXWDd5YSzP6J0zvgy18PEh2oK8HQh3ttzgM4xoe2vWJpeDRdYNNGlJbla9O69RmA2XdJh6zaehpLyKMxKmGi+SLdgzxObZQ99ApVupaQqeIOq/VeEhgtgfSxNYwuEwcLLm7RiiAsI2hPJ0rqqNE9dOYNc+nn6geSrnwkqYA2cDV1NL3ByBF+4CSM5+WDZ6lrB3IFwtvdss7JHB9LVNROik3kwCDuQyv4HTWidTRpHExjoIcva1ACZ6WTGPVwtvEjNUxAcN1/9HewHLcdNVK8a5ZdUX+Jo7fRpDHMfgxY1covFaw/8S168baJ3K8i7k9zGt7RBm6ZLCk+Fpv0dY2c3d/rXemdzeqUi7LXp9kzmsBsjbdNMKuPYMTG+cIpWSZexZy6vZK2Sf21SWQIeLK4LBv+4EFzSv9F7ve835krfkdnwVGbrEtHImPwpPY+NGCjuinlAPGXGs9ieScRlQAP73ZwDG0Oj/YLwpgUgUTPGuMjq8IiHcJPX8fvJUpqsg2hrbYpheU6rHu+weOMws1XTnhzf9IENy4jeNCez0TvpRyVk/TIkS2jZKV4WICSm6fB0zkdB9PzrKWD57F38kh/xbheyFsplW37vKcqSz/uGLwnJnD6HqJh9sDrFpn11O7e25h5MIYvm6s7u8NO+g7hTn0JkYMGw1YpSWuXDMKne6i8qMO5xmdsiGWr17Zl5IiICyE88TZJ8XME2ZUA7cL1ZhztxFUSd7Skd5VYkrlFLbyslLXf4lCZAEqm1pPrYHUunwHMqrRwBeXKuOgf2ni+VaHu8jYnFN13kwTn60PurmQ2q81PF4Bx8DRwmYVyM2WsnUc8qEEw5fUTyg5gtli4447BXLL9xoeT/uSAcVUzVQEPZzFZCBjWJlffBERIjobwV9NJ9Ux8i7mrXm8oTM2lEN5hZskxmAz6kokXqxyzYHwsA0JbYfQxcc1+1+SptiYrGCGKDy9uLSKsLGN8U+fImal/Qne9NjNuSBMr/1tr8Efz+GW6xV0SGy+7zlj9vtS4zYdJRhDyIuurSTsJNcTDM5W1lduoCDnf5TrTsdPo7KVbp41VfOlm/GWsgP/GVRnaGsKN1JET6HKg2q+KdJaVWZAhiAoXBM7oLdOijncVwd7/lEMSzVDWNus9Wle2Da+iHPzQ2dCl/nFq7szTQBGRj/DNuP0Dk9jWDjSldDzSi4TDvf2B3rMVl8BbyQUVopJdf8K8aTjaHx0ONTdF5/8L1yEnzibn76sbKJJUIzk7K6cH1qhd3WTgZqCQwCDe6g1D4ZaPHKbiCDST98avHCTX0fV4ICQ9+eWOwpxilISO2NcvdbnXgi/5PTUBi5Cs3Cwx5Yv8kRo2cdpLAIT0/6m8juG7nO47zuMS4jGBs9ewGr6e4RCAVUpVFMILlB1jyH4WyxsxFpYW1fbXANHxispuAKun1CHsUqupTCS1MuQRH2IrppGb1Cp7L6ECYWOsh3Iy6qAArsdKQ3DILxcCNr50XMyKE6N5tCqLHU8+KrXv7RTCzGW1LG9STFPZ/cvG9K3oEGSaNWp1Ba6RF+reuI8WnQAOKfGylyvnllKx3SXRMxuGAMLA8jjRohkbZTkUNJ5TmK1e7rqocqVtRAr/hCOh1Sgh8QDI//46jAUztfIF3+mvchUQbfPoFWPsRD65WuPkOklhFjErYlXHWV2uvHZ6A0kw2OiaGu8gNrVb7rMu/w6aHppsZuPkBXz4Avh/+3eur4GYI5JV9W38YWPI9/3maYjLv+MM307/hwEPcITiLYLPgjAJ+oanFx6BtgrVffJxJhLevaYpdiXNceb17ZmWcNYVEOXERaYJuM4vJUw3QayNXJ+A2+vECSpYCFb2rGxYBKUJbC4kK7lNNXMtrbj/5GyXFriw9ttAXwA+bFeVwnLBa8z+GHXZJ6+tNYklyEN3ET6UDKWrFuM3O+kBZOSNA32x2zdRwJH4zc0FIcaLSHJ5GowKErXuiRHQib4y13j1xtRqpcNhsbBLnOt4xzfzMZNSATfwpTvsrRY06QrZS/0l1y4t/0pOJ6DMf+m2KxdTx6/ZwCM8G/GpdZ9hO2S3wSKZmF+UPVB01Bt7TuoLDrbw4U/O2EZ07k/0P/FDGNsFOX94ICnfpUkC1hvAUBBUaAMAGG0FOBDP3kNJ4qbvGWrukr3PK5VmYR0ziM3DuxeWaZRGnqnd7ZmjFx+CmD5gjALEP7XVNNw0cX8RIw3HQX29/lsPxevIHYQBiG5VXUg+RKWIjnCRt3PDBX5LWeoAinBqOj68PZQLzmXQ1j+GHIc94UU9cSpEMWtcJ0PhgzBAugEGyWvenepBNqkwB7W+ag4Ik0Lf5hyzKENR3JTEhH/zavFdBKjIhMSYsv997oIk5GqgiZs43swVQy9EyNsiv0vPNoBP/eZBimxVKV84vT4R7alEnJvWdr6ClABGQ3L9u98eyn6Y9hbppt1zL0yMycPieJ4luTLZCFtKI3gHVNfgA+WrVmvUc1cXUc3VyUApPshVPjgfzGlb/on4HgXJiXlMK1uaj33KspTVjDZO8bLgTxEdanPXKQezrmQmEkNCO035kw396LxmU0C3wT6FTV8485qmFarykXr6cLTOddh8J/Ml2Sb7X2mtXaThZ3+t5dGuUynu1CPSWE7bDI1rHAZKYKzApjT/ADvrI+7VFLKxuK2NrQmRS2s0btimbuNrNZ0st+OtIkcYiS4F2E7X9J5+mIE5rpxm5aB/jw1Alohdy6eSIFz/aP42G7yVreApS/mnVxA6W4CehuGUEV38Zctdn0Ty85tod2Ybj6yqNNzP5rbPCjxprCekVA7Ha/+LtE6N63FksBt/o5UhsnUlKntkAzZK1IMKorojXmqYF4byVoLk1M9LjTA+e2rmNcqGd9+/ITPDxF0iHc+6auK/+g84DNdC8nbXnQ/VIyfbD0jM+R/zOmFswx/M/joRSMRQCXOQCMWqlU86rK86/ucOvwU3fonhPUlbzV+QER2R/EJ5/bRg7FmgJrNNcP9/OftRGKAghmOOaV2NvPspGBmoDQqtUidjvXBLBv4AAAAA==",
+      "rating": 5.4,
+      "description": "lalalalalalalallala",
+      "_id": "66592453-318a-4d0c-b5e9-4e58ca7e0bc6"
+    }
+  ]
+}

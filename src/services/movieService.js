@@ -10,7 +10,7 @@ export default {
         return Movie.findOne({_id:movieId});
     },
 
-    create(movieData) {
+   create(movieData) {
 
         const movie = new Movie(movieData);
        

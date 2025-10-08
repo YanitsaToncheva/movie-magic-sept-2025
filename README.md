@@ -55,5 +55,5 @@ SoftUni Back End Course Project
 - [x] Remember search words
 ### Bonuses
 - [x] Dynamic page title
-- [] File persistance
-- [] Rating
+- [x] File persistence
+- [x] Rating
