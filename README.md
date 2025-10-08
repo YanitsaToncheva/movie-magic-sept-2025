@@ -51,7 +51,7 @@ SoftUni Back End Course Project
 - [] Filter movies
     - [x] By year
     - [x] By genre
-    - [] By title
+    - [x] By title
 - [] Remember search words
 ### Bonuses
 - [] File persistance
