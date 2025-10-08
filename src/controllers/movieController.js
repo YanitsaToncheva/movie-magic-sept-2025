@@ -31,7 +31,7 @@ movieController.get('/search', (req, res) => {
 
 
 
-    res.render('search', { movies, filter });
+    res.render('search', { movies, filter, pageTitle: 'Search Movies' });
 })
 
 
