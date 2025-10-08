@@ -47,8 +47,11 @@ SoftUni Back End Course Project
 ### Search
 - [x] Show static search page
 - [x] Render all movies
-- [x Modify search form
+- [x] Modify search form
 - [] Filter movies
+    - [x] By year
+    - [x] By genre
+    - [] By title
 - [] Remember search words
 ### Bonuses
 - [] File persistance
