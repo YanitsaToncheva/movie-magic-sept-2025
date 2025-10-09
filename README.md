@@ -66,13 +66,17 @@ SoftUni Back End Course Project
 - [x] Instal Mongosh CLI (Optional)
 
 ### Setup
-- [] Install mongoose `npm i mongoose`
-- [] Connext to DB
+- [x] Install mongoose `npm i mongoose`
+- [x] Connext to DB
 
 ### Refactor Movies to use mongoose
 - [] Add movie model
+    - [] Create movie schema
+    - [] Create movie model
 
 
 
 - [] Add new resources
 
+### Bonuses
+- [] Env variables
