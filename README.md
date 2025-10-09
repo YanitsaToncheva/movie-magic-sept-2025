@@ -3,7 +3,7 @@ SoftUni JS Back End Course Project
 
 SoftUni Back End Course Project
 
-##Development Steps
+## Workshop 1 -Express and Templating
 
 ### Setup
 
@@ -57,3 +57,22 @@ SoftUni Back End Course Project
 - [x] Dynamic page title
 - [x] File persistence
 - [x] Rating
+
+## Workshop 2 - MongoDB Database
+
+### Prerequisites
+- [x] Install MongoDB Community Server
+- [x] Install Compass GUI
+- [x] Instal Mongosh CLI (Optional)
+
+### Setup
+- [] Install mongoose `npm i mongoose`
+- [] Connext to DB
+
+### Refactor Movies to use mongoose
+- [] Add movie model
+
+
+
+- [] Add new resources
+
