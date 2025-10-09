@@ -6,7 +6,7 @@ let dbSerialized = await fs.readFile('./src/db.json', {encoding: 'utf-8' });
 let db = JSON.parse(dbSerialized);
 let movies = db.movies;
 
-console.log(movies)
+
 
 
 export default class Movie {
