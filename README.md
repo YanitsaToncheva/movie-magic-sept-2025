@@ -29,7 +29,7 @@ SoftUni Back End Course Project
 - [x] Add routes
 - [x] Add 404 page
 - [x] Read body data
-- [] Create movie
+- [x] Create movie
     - [x] Add action
     - [x] Add service
     - [x] Add model method for creating movie
@@ -48,7 +48,7 @@ SoftUni Back End Course Project
 - [x] Show static search page
 - [x] Render all movies
 - [x] Modify search form
-- [] Filter movies
+- [x] Filter movies
     - [x] By year
     - [x] By genre
     - [x] By title
@@ -73,7 +73,7 @@ SoftUni Back End Course Project
 - [x] Add movie model
     - [x] Create movie schema
     - [x] Create movie model
-- [] Refactor movie service 
+- [x] Import file movies to database
 
 
 - [] Add new resources
