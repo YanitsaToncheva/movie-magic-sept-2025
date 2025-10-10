@@ -76,7 +76,7 @@ SoftUni Back End Course Project
 - [x] Import file movies to database
 - [x] Fix own property handlebars problem with lean method
 - [x] General fix for own property problem
-
+- [] Refactor search
 
 - [] Add new resources
 
