@@ -70,10 +70,10 @@ SoftUni Back End Course Project
 - [x] Connext to DB
 
 ### Refactor Movies to use mongoose
-- [] Add movie model
-    - [] Create movie schema
-    - [] Create movie model
-
+- [x] Add movie model
+    - [x] Create movie schema
+    - [x] Create movie model
+- [] Refactor movie service 
 
 
 - [] Add new resources
