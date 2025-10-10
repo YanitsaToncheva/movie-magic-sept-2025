@@ -76,9 +76,21 @@ SoftUni Back End Course Project
 - [x] Import file movies to database
 - [x] Fix own property handlebars problem with lean method
 - [x] General fix for own property problem
-- [] Refactor search
+- [x] Refactor details
+- [x] Refactor create
+- [x] Refactor search
 
-- [] Add new resources
+### Add Cast
+- [x] Add new resources
+- [] Add Cast model
+- [] Create cast service
+- [] Create cast Controller
+
+### Attach cast to movie
+
+
+
+### Shoe cast on details
 
 ### Bonuses
 - [] Env variables
