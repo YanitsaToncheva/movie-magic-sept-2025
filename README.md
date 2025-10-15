@@ -88,11 +88,11 @@ SoftUni Back End Course Project
 - [x] Create cast service
 - [x] Create cast functionality
 
-### Attach cast to movie
+### Attach cast to movie (relations)
 
 
 
-### Shoe cast on details
+### Shoe cast on details (population)
 
 ### Bonuses
 - [] Env variables
