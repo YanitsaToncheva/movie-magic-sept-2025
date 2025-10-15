@@ -96,3 +96,4 @@ SoftUni Back End Course Project
 
 ### Bonuses
 - [] Env variables
+- [] Name in movie
