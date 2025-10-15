@@ -89,7 +89,11 @@ SoftUni Back End Course Project
 - [x] Create cast functionality
 
 ### Attach cast to movie (relations)
-
+- [x] Add attach cast button
+- [] Add attach cast page
+- [] Add dynamic data to cast page
+- [] Add relation between cast and movie
+- [] Attach cast functionality
 
 
 ### Shoe cast on details (population)
@@ -97,3 +101,4 @@ SoftUni Back End Course Project
 ### Bonuses
 - [] Env variables
 - [] Name in movie
+- [] Add movie views to a folder
