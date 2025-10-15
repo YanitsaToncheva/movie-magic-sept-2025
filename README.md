@@ -83,7 +83,7 @@ SoftUni Back End Course Project
 ### Add Cast
 - [x] Add new resources
 - [x] Create cast Controller
-- [] Create cast page
+- [x] Create cast page
 - [] Add Cast model
 - [] Create cast service
 - [] Create cast functionality
