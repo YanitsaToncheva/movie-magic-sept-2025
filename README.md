@@ -100,9 +100,10 @@ SoftUni Back End Course Project
 ### Show cast details (population)
 - [x] Get movie casts filtered
 - [x] Show casts on details
-- [] Get movie casts using population
+- [x] Get movie casts using population
 
 ### Bonuses
+- [x] Filter casts if they are already attached
 - [] Env variables
 - [] Name in movie
 - [] Add movie views to a folder

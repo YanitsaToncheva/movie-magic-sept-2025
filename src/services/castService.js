@@ -9,6 +9,10 @@ export default {
 
            query = query.find({'_id':{$in: filter.includes}}) // Mongodb
         }
+
+        if (filter.excludes) {
+            query =query.nin('_id', filter.excludes);
+        }
         return query;
     },
 
