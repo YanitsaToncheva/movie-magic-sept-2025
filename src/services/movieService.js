@@ -28,7 +28,10 @@ export default {
 
         getOne(movieId) {
             //return Movie.findOne({_id:movieId});
-            return Movie.findById(movieId)
+            return Movie.findById(movieId);
+        },
+        getOneDetailed(movieId) {
+            return this.getOne(movieId).populate('casts');
         },
 
         create(movieData) {
