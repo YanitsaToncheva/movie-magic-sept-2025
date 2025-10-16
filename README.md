@@ -98,7 +98,7 @@ SoftUni Back End Course Project
 
 
 ### Show cast details (population)
-
+- [] Get movie casts filtered
 
 ### Bonuses
 - [] Env variables
