@@ -107,3 +107,11 @@ SoftUni Back End Course Project
 - [] Env variables
 - [] Name in movie
 - [] Add movie views to a folder
+
+## Workshop 3 - Session and Authentication
+
+### Initial Setup
+- [x] Add resources
+
+
+### Registration
