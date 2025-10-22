@@ -116,8 +116,8 @@ SoftUni Back End Course Project
 ### Registration
 - [x] Add new controller `authController`
 - [x] Add registration page
-- [] Add User model
-- [] Add User service
+- [x] Add User model
+- [x] Add User service
 - [] Handle registration(create user in database)
 - [] Add password hashing
 
