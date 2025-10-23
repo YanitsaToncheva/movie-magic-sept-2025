@@ -127,4 +127,4 @@ SoftUni Back End Course Project
     - [x] Validate user
     - [x] Validate password
     - [x] Create token
-    - [] 
+    - [] Return token to client
