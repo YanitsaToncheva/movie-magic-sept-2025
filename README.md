@@ -122,4 +122,8 @@ SoftUni Back End Course Project
 - [x] Add password hashing
 
 ### Login
-
+- [x] Add login page
+- [] Handle login page
+- [] Validate user
+- [] Validate password
+- [] Create token
