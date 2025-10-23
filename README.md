@@ -126,4 +126,5 @@ SoftUni Back End Course Project
 - [x] Handle login page
     - [x] Validate user
     - [x] Validate password
-    - [] Create token
+    - [x] Create token
+    - [] 
