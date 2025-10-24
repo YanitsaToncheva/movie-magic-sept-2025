@@ -134,7 +134,9 @@ SoftUni Back End Course Project
 - [x] Clear cookie
 
 ### Authorization
-
+- [x] Install cookie parser
+- [x] Add auth middleware
+- [] Add route guard
 ### Dynamic navigation
 
 ### Edit movies
