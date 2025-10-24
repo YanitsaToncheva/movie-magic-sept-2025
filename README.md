@@ -127,4 +127,20 @@ SoftUni Back End Course Project
     - [x] Validate user
     - [x] Validate password
     - [x] Create token
-    - [] Return token to client
+    - [x] Return token to client
+
+### Logout
+- [x] Add logout action
+- [x] Clear cookie
+
+### Authorization
+
+### Dynamic navigation
+
+### Edit movies
+
+### Delete movies
+
+### Bonus
+- [] Automatic login on register
+- [] Invalidate token on logout
