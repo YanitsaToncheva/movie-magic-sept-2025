@@ -10,7 +10,7 @@ movieController.get('/create', isAuth, (req, res) => {
         
     }
   
-    res.render('create');
+    res.render('movies/create');
 });
 
 movieController.post('/create', async(req, res) => {
@@ -31,7 +31,7 @@ movieController.get('/:movieId/details', async (req, res) => {
 
     //TODO Prepare view data (temp solution)
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
-    res.render('details', { movie, rating: ratingViewData });
+    res.render('movies/details', { movie, rating: ratingViewData });
 })
 
 movieController.get('/search', async (req, res) => {

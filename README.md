@@ -143,6 +143,8 @@ SoftUni Back End Course Project
 - [x] Group navigation by user type (all, authenticated and guest)
 - [x] Add auth info to handlebars context
 
+### Show creator control buttons
+
 ### Edit movies
 
 ### Delete movies
