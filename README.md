@@ -144,6 +144,8 @@ SoftUni Back End Course Project
 - [x] Add auth info to handlebars context
 
 ### Show creator control buttons
+- [x] Add edit and delete buttons on detail page
+- [] Show buttons only for creators
 
 ### Edit movies
 
