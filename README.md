@@ -140,6 +140,8 @@ SoftUni Back End Course Project
 - [x] Add isGuest route guard 
 
 ### Dynamic navigation
+- [x] Group navigation by user type (all, authenticated and guest)
+- [x] Add auth info to handlebars context
 
 ### Edit movies
 

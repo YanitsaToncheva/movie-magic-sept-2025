@@ -17,6 +17,10 @@ export default function authMiddleware(req, res, next) {
         // Attach authenticated user to request
         req.user = decodedToken;
         req.isAuthenticated = true;
+        //Add to handlebars context
+        res.locals.isAuthenticated = true;
+        res.locals.user = decodedToken;
+
         next();
     } catch (err) {
         //Invalid user
