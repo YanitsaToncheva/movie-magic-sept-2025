@@ -104,9 +104,10 @@ SoftUni Back End Course Project
 
 ### Bonuses
 - [x] Filter casts if they are already attached
+- [x] Add movie views to a folder
 - [] Env variables
 - [] Name in movie
-- [] Add movie views to a folder
+
 
 ## Workshop 3 - Session and Authentication
 
@@ -162,4 +163,4 @@ SoftUni Back End Course Project
 - [] Automatic login on register
 - [] Invalidate token on logout
 - [] Refresh token
-- [] Edit categories
+- [x] Edit categories
