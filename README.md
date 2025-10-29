@@ -150,6 +150,7 @@ SoftUni Back End Course Project
 - [x] Show buttons only for creators
 
 ### Edit movies
+- [x] Add edit page
 
 ### Delete movies
 - [x] Add delete action
