@@ -151,7 +151,7 @@ SoftUni Back End Course Project
 
 ### Edit movies
 - [x] Add edit page
-- [] Add dynamic movie data to edit page
+- [x] Add dynamic movie data to edit page
 
 ### Delete movies
 - [x] Add delete action
