@@ -85,4 +85,14 @@ movieController.get('/:movieId/edit', async (req, res) => {
     const movie = await movieService.getOne(movieId);
     res.render('movies/edit', { movie });
 });
+
+movieController.post('/:movieId/edit', async (req, res) => {
+    const movieId = req.params.movieId;
+    const movieData = req.body;
+
+    await movieService.edit(movieId, movieData);
+
+    res.redirect(`/movies/${movieId}/details`)
+
+})
 export default movieController;
