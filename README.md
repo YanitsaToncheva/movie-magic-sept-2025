@@ -153,6 +153,7 @@ SoftUni Back End Course Project
 
 ### Delete movies
 - [x] Add delete action
+- [x] Add creator validation
 
 ### Bonus
 - [] Automatic login on register
