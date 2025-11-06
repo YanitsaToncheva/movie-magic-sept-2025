@@ -13,6 +13,9 @@ export default {
             throw new Error('User already exists!');
         }
 
+        // if (userData.password !== userData.rePassword) {
+        //     throw new Error('Password mismatch!');
+        // }
 
         const user = await User.create(userData);
         const token = generateAuthToken(user);

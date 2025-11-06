@@ -17,6 +17,31 @@ const userSchema = new Schema({
         match: [/^[a-zA-Z0-9]+$/],
     }
 });
+//Validate password
+
+userSchema.virtual('rePassword')
+    .get(function() {
+        return this._rePassword;
+    })
+    .set(function(value) {
+        this._rePassword = value;
+    });
+
+userSchema.pre('validate', function() {
+    if (this.isNew && this.password !== this.rePassword) {
+      
+       this.invalidate('rePassword', 'Password mismatch!');
+    }
+});
+//Validate unique email on user creation
+// userSchema.pre('validate', async function() {
+//     if (this.isNew) {
+//         const userExists = await constructor.exists({email: this.email});
+//         if (userExists) {
+//             throw new Error('User already exists!');
+//         }
+//     }
+// })
 
 userSchema.pre('save', async function () {
     //const salt = await bcrypt.genSalt(12);
