@@ -180,6 +180,7 @@ SoftUni Back End Course Project
 - [x] Add static error notification container
 - [x] User register error handling
 - [x] Render error container conditionally
+- [x] Retain register form data on error
 
 ### Bonuses
 - [] Dynamic year check
