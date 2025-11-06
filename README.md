@@ -165,3 +165,9 @@ SoftUni Back End Course Project
 - [] Invalidate token on logout
 - [] Refresh token
 
+## Workshop 4 - Validation and Error Handling
+
+### Validation
+- [x] Validate movie
+- [] Validate cast
+- [] Validate user
