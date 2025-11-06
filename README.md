@@ -171,3 +171,7 @@ SoftUni Back End Course Project
 - [x] Validate movie
 - [] Validate cast
 - [] Validate user
+
+### Bonuses
+- [] Dynamic year check
+- [] Character name
