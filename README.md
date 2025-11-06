@@ -167,10 +167,17 @@ SoftUni Back End Course Project
 
 ## Workshop 4 - Validation and Error Handling
 
+- [x] Add resources
+
 ### Validation
 - [x] Validate movie
-- [] Validate cast
-- [] Validate user
+- [x] Validate cast
+- [x] Validate user
+- [x] Validate passwords in model
+
+### Error Handling
+
+- [] Add static error notification container
 
 ### Bonuses
 - [] Dynamic year check
