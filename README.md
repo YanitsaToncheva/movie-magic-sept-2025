@@ -181,6 +181,8 @@ SoftUni Back End Course Project
 - [x] User register error handling
 - [x] Render error container conditionally
 - [x] Retain register form data on error
+- [x] Extract get error message
+- [x] User login error handling
 
 ### Bonuses
 - [] Dynamic year check
