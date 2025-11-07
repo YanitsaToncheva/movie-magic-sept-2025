@@ -183,6 +183,7 @@ SoftUni Back End Course Project
 - [x] Retain register form data on error
 - [x] Extract get error message
 - [x] User login error handling
+- [] Create movie error handling
 
 ### Bonuses
 - [] Dynamic year check
