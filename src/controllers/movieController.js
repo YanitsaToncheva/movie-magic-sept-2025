@@ -7,13 +7,12 @@ import { getErrorMessage } from "../utils/errorUtils.js";
 const movieController = Router();
 
 movieController.get('/create', isAuth, (req, res) => {
-    if(req.isAuthenticated) {
-        
+    if (req.isAuthenticated) {
+        console.log(req.user.email);
     }
-  
-    res.render('movies/create');
-});
 
+    res.render('movies/create', { categories: getMovieCategoryViewData() });
+});
 movieController.post('/create', isAuth, async (req, res) => {
     const movieData = req.body;
     const userId = req.user.id;
@@ -106,6 +105,7 @@ movieController.post('/:movieId/edit', async (req, res) => {
     res.redirect(`/movies/${movieId}/details`)
 
 });
+
 function getMovieCategoryViewData(selectedCategory) {
     const categories = [
         { value: 'tv-show', label: 'TV Show' },
@@ -113,10 +113,10 @@ function getMovieCategoryViewData(selectedCategory) {
         { value: 'movie', label: 'Movie' },
         { value: 'documentary', label: 'Documentary' },
         { value: 'short-film', label: 'Short Film' },
-        
     ];
-    const viewData = categories.map(category => ({...category, selected: selectedCategory === category.value ? 'selected' : ''}));
-    return viewData;
 
+    const viewData = categories.map(category => ({ ...category, selected: selectedCategory === category.value ? 'selected' : '' }))
+
+    return viewData;
 }
 export default movieController;
