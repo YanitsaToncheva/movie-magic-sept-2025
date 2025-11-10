@@ -29,7 +29,11 @@ app.engine('hbs', handlebars.engine({
       
       allowProtoMethodsByDefault: true,
       allowProtoPropertiesByDefault: true,
-
+   },
+   helpers: {
+      setTitle(title) {
+         this.pageTitle = title;
+      }
    }
 }));
 

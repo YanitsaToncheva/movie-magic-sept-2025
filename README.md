@@ -54,7 +54,7 @@ SoftUni Back End Course Project
     - [x] By title
 - [x] Remember search words
 ### Bonuses
-- [x] Dynamic page title
+- [x] Dynamic page title simple solution
 - [x] File persistence
 - [x] Rating
 
@@ -192,6 +192,7 @@ SoftUni Back End Course Project
 
 ### Bonuses
 - [x] Guard edit from non creator
+- [x] Dynamic page title advance solution
 - [] Redirect with message
 - [] Dynamic year check
 - [] Character name
