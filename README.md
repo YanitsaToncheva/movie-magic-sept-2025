@@ -192,8 +192,8 @@ SoftUni Back End Course Project
 
 ### Bonuses
 - [x] Guard edit from non creator
-- [x] Dynamic page title advance solution
-- [] Redirect with message
+- [x] Dynamic page title using handlebars helpers
+- [x] Redirect with message
 - [] Dynamic year check
 - [] Character name
 - [] Add more password validation

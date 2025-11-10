@@ -1,11 +1,14 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
 import mongoose from 'mongoose';
+import expressSession from 'express-session';
 
 import  cookieParser from 'cookie-parser';
 
 import routes from './routes.js';
 import authMiddleware from './middlewares/authMiddleware.js';
+import pageHelpers from './helpers/pageHelpers.js';
+import { tempDataMiddleware } from './middlewares/tempDataMiddleware.js';
 
 
 const app = express();
@@ -31,9 +34,7 @@ app.engine('hbs', handlebars.engine({
       allowProtoPropertiesByDefault: true,
    },
    helpers: {
-      setTitle(title) {
-         this.pageTitle = title;
-      }
+      ...pageHelpers
    }
 }));
 
@@ -51,9 +52,19 @@ app.use(express.urlencoded());
 
 app.use(cookieParser());
 
+
 // Use auth middleware
 app.use(authMiddleware);
 
+//Express session
+app.use(expressSession({
+  secret: 'fgfgsdrgdrgklrlrfkfkkgfkgkgfkkgfkkfhgyrtwshjdjsfm',
+  resave: false,
+  saveUninitialized: false,
+  cookie: { secure: false }
+}))
+//Add tempData Middleware
+app.use(tempDataMiddleware);
 //Routes
 app.use(routes);
 

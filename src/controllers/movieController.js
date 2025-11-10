@@ -34,31 +34,29 @@ movieController.post('/create', isAuth, async (req, res) => {
 
 movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
-   try {
-    const movie = await movieService.getOneDetailed(movieId);
 
+    try {
+        const movie = await movieService.getOneDetailed(movieId)
 
-    //const movieCasts = await castService.getAll({includes: movie.casts});
+        // TODO Prepare view data (temp solution)
+        const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
 
+        // const isCreator = req.user?.id && movie.creator == req.user.id;
+        const isCreator = movie.creator && movie.creator.equals(req.user?.id);
 
-    //TODO Prepare view data (temp solution)
-    const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating));
+        res.render('movies/details', { movie, rating: ratingViewData, isCreator });
+    } catch (err) {
+        // #1 Redirect without message (not recomended)
+        // res.redirect('/404');
 
-    //const isCreator = req.user?.id && movie.creator == req.user.id;
-    const isCreator = movie.creator && movie.creator.equals(req.user?.id);
-    res.render('movies/details', { movie, rating: ratingViewData, isCreator });
+        // #2 Render 404 page with message (url not changed)
+        // res.render('404', { error: 'Movie not found!' })
 
-   } catch (err) {
-    //#1 Redirect without message(not recommended)
-    //res.redirect('/404');
-    //#2 render 404 page with message/ url not modified
-    res.render('404', {error: 'Movie not found!'})
-
-    //# Redirect with message/ url changed
-   }
-
-    
-})
+        // #3 Redirect with message, url changed
+        req.tempData = { error: 'Movie not found!' };
+        res.redirect('/404');
+    }
+});
 
 movieController.get('/search', async (req, res) => {
     const filter = req.query;
