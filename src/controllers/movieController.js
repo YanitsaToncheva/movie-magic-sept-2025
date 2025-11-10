@@ -14,22 +14,22 @@ movieController.get('/create', isAuth, (req, res) => {
     res.render('movies/create');
 });
 
-movieController.post('/create', isAuth, async(req, res) => {
+movieController.post('/create', isAuth, async (req, res) => {
     const movieData = req.body;
     const userId = req.user.id;
 
     try {
         await movieService.create(movieData, userId);
+
         res.redirect('/');
     } catch (err) {
-        const errorMessage = getErrorMessage(err);
-        res.status(400).render('movies/create', {error:errorMessage, movie:movieData});
+        res.status(400).render('movies/create', {
+            error: getErrorMessage(err),
+            movie: movieData,
+            categories: getMovieCategoryViewData(movieData.category),
+        });
     }
-    
-
-
-   
-})
+});
 
 movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
