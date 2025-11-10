@@ -187,6 +187,8 @@ SoftUni Back End Course Project
 - [x] BONUS retain movie category after error
 - [x] Create cast create error handling 
 - [x] Add details page error handling
+- [x] Error handling on movie edit page
+- [x] Fix movie category on edit page
 
 ### Bonuses
 - [] Redirect with message

@@ -61,7 +61,7 @@ export default {
             return Movie.findByIdAndDelete(movieId);
         },
         edit(movieId, movieData) {
-            return Movie.findByIdAndUpdate(movieId, movieData)
+            return Movie.findByIdAndUpdate(movieId, movieData, { runValidators: true}) //Mongoose doesn't run the validators automatically
         }
 
     }
