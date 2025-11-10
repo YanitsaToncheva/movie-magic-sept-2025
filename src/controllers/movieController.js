@@ -3,6 +3,7 @@ import movieService from "../services/movieService.js";
 import castService from "../services/castService.js";
 import { isAuth } from "../middlewares/authMiddleware.js";
 import { getErrorMessage } from "../utils/errorUtils.js";
+import { Types } from "mongoose";
 
 const movieController = Router();
 
@@ -32,7 +33,9 @@ movieController.post('/create', isAuth, async (req, res) => {
 
 movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
+   try {
     const movie = await movieService.getOneDetailed(movieId);
+
 
     //const movieCasts = await castService.getAll({includes: movie.casts});
 
@@ -43,6 +46,13 @@ movieController.get('/:movieId/details', async (req, res) => {
     //const isCreator = req.user?.id && movie.creator == req.user.id;
     const isCreator = movie.creator && movie.creator.equals(req.user?.id);
     res.render('movies/details', { movie, rating: ratingViewData, isCreator });
+
+   } catch (err) {
+    res.redirect('/404');
+    
+   }
+
+    
 })
 
 movieController.get('/search', async (req, res) => {
