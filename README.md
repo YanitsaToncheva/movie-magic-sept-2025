@@ -189,6 +189,7 @@ SoftUni Back End Course Project
 - [x] Add details page error handling
 
 ### Bonuses
+- [] Redirect with message
 - [] Guard edit from non creator
 - [] Dynamic year check
 - [] Character name
