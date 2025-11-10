@@ -191,8 +191,8 @@ SoftUni Back End Course Project
 - [x] Fix movie category on edit page
 
 ### Bonuses
+- [x] Guard edit from non creator
 - [] Redirect with message
-- [] Guard edit from non creator
 - [] Dynamic year check
 - [] Character name
 - [] Add more password validation
